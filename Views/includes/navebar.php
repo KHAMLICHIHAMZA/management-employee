@@ -24,7 +24,7 @@
        
       
         </div>
-        <a href="http://localhost/tp1/add" class="  btn btn-sm btn-primary">
+        <a href="http://localhost/management-employee/add" class="  btn btn-sm btn-primary">
                       <i class="fas fa-plus"></i>
                     </a>
       </div>

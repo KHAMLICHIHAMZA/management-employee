@@ -52,7 +52,7 @@ $result =Employe::add($data);
 if($result === 'ok')
 {
 
-    echo "<script type='text/javascript'>window.top.location='http://localhost/tp1/';</script>"; exit;
+    echo "<script type='text/javascript'>window.top.location='http://localhost  ';</script>"; exit;
 
 
 }else {
@@ -89,7 +89,7 @@ $result =Employe::update($data);
 if($result === 'ok')
 {
 
-    echo "<script type='text/javascript'>window.top.location='http://localhost/tp1/';</script>"; exit;
+    echo "<script type='text/javascript'>window.top.location='http://localhost/management-employee/';</script>"; exit;
 }
 else
 {
@@ -131,7 +131,7 @@ $result =Employe::update2($data);
 if($result === 'ok')
 {
 
-    echo "<script type='text/javascript'>window.top.location='http://localhost/tp1/';</script>"; exit;
+    echo "<script type='text/javascript'>window.top.location='http://localhost/management-employee/';</script>"; exit;
 
 
 }else {
@@ -161,7 +161,7 @@ static public function deleteEmplopye()
         if($result === 'ok')
  {
 
-echo "<script type='text/javascript'>window.top.location='http://localhost/tp1/';</script>"; 
+echo "<script type='text/javascript'>window.top.location='http://localhost/management-employee/';</script>"; 
 exit;
 
 }
